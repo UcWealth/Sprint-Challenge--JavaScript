@@ -9,7 +9,7 @@
 consume = (a,b,cb) => {
   return cb(a, b)
 };
-consume(70,7, (cbf) => console.log(cbf));
+// consume(70,7, (cbf) => console.log(cbf));
 
 /* Step 2: Create several functions to callback with consume();
   * Create a function named add that returns the sum of two numbers
